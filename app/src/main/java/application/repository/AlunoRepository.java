@@ -2,9 +2,9 @@ package application.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import application.model.aluno;
+import application.model.Aluno;
 
-public interface AlunoRepository extends CrudRepository<aluno, Long> {
+public interface AlunoRepository extends CrudRepository<Aluno, Long> {
 
 
     
