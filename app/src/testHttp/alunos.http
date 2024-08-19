@@ -1,0 +1,30 @@
+@baseUrl = https://8080-matheusmora-aprendendoa-ycuhwb2apuc.ws-us115.gitpod.io
+
+###
+GET {{baseUrl}}/alunos
+
+###
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+    "nome": "Kashimba"
+}
+
+###
+
+GET {{baseUrl}}/alunos/1
+
+###
+
+PUT {{baseUrl}}/alunos/1
+Content-Type: application/json
+
+{
+    "nome": "Jerso"
+}
+
+
+###
+
+DELETE {{baseUrl}}/alunos/9
