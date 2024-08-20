@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ###
 
-GET {{baseUrl}}/alunos/1
+GET {{baseUrl}}/alunos/2
 
 ###
 
@@ -27,4 +27,4 @@ Content-Type: application/json
 
 ###
 
-DELETE {{baseUrl}}/alunos/9
+DELETE {{baseUrl}}/alunos/13
